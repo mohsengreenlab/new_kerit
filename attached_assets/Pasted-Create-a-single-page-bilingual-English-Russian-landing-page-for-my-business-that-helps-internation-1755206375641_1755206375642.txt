@@ -1,0 +1,83 @@
+Create a single-page bilingual (English/Russian) landing page for my business that helps international companies enter the Russian market.
+
+Layout:
+
+One continuous scrolling page with navigation links: Home, About, Services, Pricing, Contact.
+
+Each navigation item scrolls to its section.
+
+Include a language toggle button (English / Русский).
+
+Content:
+
+Home Section (Hero)
+
+Headline: Introducing Your Products to the Russian Market
+
+Tagline: From market research to local outreach — we connect you with the right people, the right way.
+
+Subheading: We make entering the Russian market faster, easier, and more profitable by combining research, localization, and direct customer outreach.
+
+Call-to-action: [Book a Consultation] [Contact Us]
+
+Services Section (short, benefit-oriented cards)
+
+Market Entry Support: Understand the market before you invest.
+
+Market Research & Analysis: Data-driven insights on your industry and competition.
+
+Industry Trends Reports: Spot opportunities and avoid costly mistakes.
+
+Outreach & Lead Generation: Reach the right customers from day one.
+
+Lead Sourcing & List Building: Verified local prospects tailored to your product.
+
+Sales Enablement: Turn interest into real business opportunities.
+
+Appointment Setting: We arrange meetings with potential clients or distributors.
+
+Digital Presence & Trust Building: Look local, feel local, sell local.
+
+Website & Landing Page Localization: Adapt your online presence for Russian buyers.
+
+Local Social Media Setup: Establish your brand on Russia’s most popular platforms.
+
+Pricing Section
+
+Placeholder text or sample package structure until final details are provided.
+
+Contact Section
+
+Contact form + business email + phone + social media links.
+
+Design & Brand:
+
+Color Palette
+
+Dark Navy: hsl(345, 50%, 6%) – headings, text, strong accents
+
+Bright Yellow: hsl(58, 94%, 65%) – primary buttons, CTAs
+
+Light Yellow: hsl(58, 94%, 78%) – icon backgrounds, subtle highlights
+
+Sage Green: hsl(64, 7%, 51%) – secondary buttons, accents, hover states
+
+Background: white (hsl(0, 0%, 100%))
+
+Secondary text: gray (hsl(25, 5.3%, 44.7%))
+
+Section backgrounds: light gray (hsl(60, 4.8%, 95.9%))
+
+Typography: clean, sans-serif (e.g., Open Sans, Roboto, or similar)
+
+Style: modern, professional, with relevant stock images or vector icons
+
+Mobile-first responsive design
+
+Smooth scroll navigation
+
+Deliverable:
+
+HTML/CSS/JS (React optional) or Replit-hosted static site
+
+Ready-to-deploy landing page
