@@ -39,7 +39,7 @@ export function PricingSection() {
               <span className="text-3xl font-bold text-dark-navy">
                 {t('contactForQuote')}
               </span>
-              <div className="text-bright-yellow font-semibold">
+              <div className="text-sage-green font-semibold">
                 {t('customQuote')}
               </div>
             </div>
@@ -121,7 +121,7 @@ export function PricingSection() {
               <span className="text-3xl font-bold text-dark-navy">
                 {t('contactForQuote')}
               </span>
-              <div className="text-bright-yellow font-semibold">
+              <div className="text-sage-green font-semibold">
                 {t('customQuote')}
               </div>
             </div>

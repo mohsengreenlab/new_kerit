@@ -4,8 +4,7 @@ import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Label } from '@/components/ui/label';
 import { useToast } from '@/hooks/use-toast';
-import { Mail, Phone, MapPin, Linkedin, Send } from 'lucide-react';
-import { FaTelegram, FaWhatsapp } from 'react-icons/fa';
+import { Mail, Phone, MapPin, Send } from 'lucide-react';
 import { Globe } from 'lucide-react';
 import { useLanguage } from '@/hooks/use-language';
 import { useForm } from 'react-hook-form';
@@ -115,32 +114,7 @@ export function ContactSection() {
               </div>
             </div>
 
-            <div className="mt-8">
-              <p className="font-semibold mb-4">{t('followUs')}</p>
-              <div className="flex space-x-4">
-                <a 
-                  href="#" 
-                  className="w-10 h-10 bg-sage-green rounded-lg flex items-center justify-center hover:bg-bright-yellow transition-colors group"
-                  data-testid="link-linkedin"
-                >
-                  <Linkedin className="h-5 w-5 text-white group-hover:text-dark-navy" />
-                </a>
-                <a 
-                  href="#" 
-                  className="w-10 h-10 bg-sage-green rounded-lg flex items-center justify-center hover:bg-bright-yellow transition-colors group"
-                  data-testid="link-telegram"
-                >
-                  <FaTelegram className="h-5 w-5 text-white group-hover:text-dark-navy" />
-                </a>
-                <a 
-                  href="#" 
-                  className="w-10 h-10 bg-sage-green rounded-lg flex items-center justify-center hover:bg-bright-yellow transition-colors group"
-                  data-testid="link-whatsapp"
-                >
-                  <FaWhatsapp className="h-5 w-5 text-white group-hover:text-dark-navy" />
-                </a>
-              </div>
-            </div>
+
           </div>
 
           <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8">
