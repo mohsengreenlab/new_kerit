@@ -24,7 +24,7 @@ export function HeroSection() {
           <div className="space-y-8">
             <h1 className="text-4xl lg:text-6xl font-bold text-dark-navy leading-tight">
               <span className="block">{t('heroTitle')}</span>
-              <span className="text-bright-yellow block">{t('heroTitleHighlight')}</span>
+              <span className="text-sage-green block">{t('heroTitleHighlight')}</span>
             </h1>
             
             <p className="text-xl text-secondary-gray leading-relaxed">
@@ -56,8 +56,8 @@ export function HeroSection() {
           
           <div className="relative">
             <img 
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=600" 
-              alt="Professional business consultant analyzing market data"
+              src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=600" 
+              alt="Professional business team in corporate meeting discussing market strategy"
               className="rounded-2xl shadow-2xl w-full h-auto"
             />
             <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
