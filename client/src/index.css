@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: hsl(0, 0%, 100%);
+  --foreground: hsl(345, 50%, 6%);
+  --card: hsl(0, 0%, 100%);
+  --card-foreground: hsl(345, 50%, 6%);
+  --popover: hsl(0, 0%, 100%);
+  --popover-foreground: hsl(345, 50%, 6%);
+  --primary: hsl(58, 94%, 65%);
+  --primary-foreground: hsl(345, 50%, 6%);
+  --secondary: hsl(64, 7%, 51%);
+  --secondary-foreground: hsl(0, 0%, 100%);
+  --muted: hsl(60, 4.8%, 95.9%);
+  --muted-foreground: hsl(25, 5.3%, 44.7%);
+  --accent: hsl(58, 94%, 78%);
+  --accent-foreground: hsl(345, 50%, 6%);
+  --destructive: hsl(0, 62.8%, 30.6%);
+  --destructive-foreground: hsl(0, 0%, 98%);
+  --border: hsl(214.3, 31.8%, 91.4%);
+  --input: hsl(214.3, 31.8%, 91.4%);
+  --ring: hsl(58, 94%, 65%);
+  --chart-1: hsl(12, 76%, 61%);
+  --chart-2: hsl(173, 58%, 39%);
+  --chart-3: hsl(197, 37%, 24%);
+  --chart-4: hsl(43, 74%, 66%);
+  --chart-5: hsl(27, 87%, 67%);
+  --radius: 0.5rem;
+  --font-sans: 'Inter', sans-serif;
+  --font-serif: Georgia, serif;
+  --font-mono: Menlo, monospace;
+
+  /* Custom colors for the project */
+  --dark-navy: hsl(345, 50%, 6%);
+  --bright-yellow: hsl(58, 94%, 65%);
+  --light-yellow: hsl(58, 94%, 78%);
+  --sage-green: hsl(64, 7%, 51%);
+  --secondary-gray: hsl(25, 5.3%, 44.7%);
+  --section-bg: hsl(60, 4.8%, 95.9%);
+}
+
+.dark {
+  --background: hsl(222.2, 84%, 4.9%);
+  --foreground: hsl(210, 40%, 98%);
+  --card: hsl(222.2, 84%, 4.9%);
+  --card-foreground: hsl(210, 40%, 98%);
+  --popover: hsl(222.2, 84%, 4.9%);
+  --popover-foreground: hsl(210, 40%, 98%);
+  --primary: hsl(58, 94%, 65%);
+  --primary-foreground: hsl(345, 50%, 6%);
+  --secondary: hsl(217.2, 32.6%, 17.5%);
+  --secondary-foreground: hsl(210, 40%, 98%);
+  --muted: hsl(217.2, 32.6%, 17.5%);
+  --muted-foreground: hsl(215, 20.2%, 65.1%);
+  --accent: hsl(58, 94%, 78%);
+  --accent-foreground: hsl(345, 50%, 6%);
+  --destructive: hsl(0, 62.8%, 30.6%);
+  --destructive-foreground: hsl(0, 0%, 98%);
+  --border: hsl(217.2, 32.6%, 17.5%);
+  --input: hsl(217.2, 32.6%, 17.5%);
+  --ring: hsl(58, 94%, 65%);
+  --chart-1: hsl(220, 70%, 50%);
+  --chart-2: hsl(160, 60%, 45%);
+  --chart-3: hsl(30, 80%, 55%);
+  --chart-4: hsl(280, 65%, 60%);
+  --chart-5: hsl(340, 75%, 55%);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .text-dark-navy {
+    color: var(--dark-navy);
+  }
+  
+  .text-bright-yellow {
+    color: var(--bright-yellow);
+  }
+  
+  .text-light-yellow {
+    color: var(--light-yellow);
+  }
+  
+  .text-sage-green {
+    color: var(--sage-green);
+  }
+  
+  .text-secondary-gray {
+    color: var(--secondary-gray);
+  }
+  
+  .bg-dark-navy {
+    background-color: var(--dark-navy);
+  }
+  
+  .bg-bright-yellow {
+    background-color: var(--bright-yellow);
+  }
+  
+  .bg-light-yellow {
+    background-color: var(--light-yellow);
+  }
+  
+  .bg-sage-green {
+    background-color: var(--sage-green);
+  }
+  
+  .bg-section-bg {
+    background-color: var(--section-bg);
+  }
+  
+  .border-sage-green {
+    border-color: var(--sage-green);
+  }
+  
+  .border-bright-yellow {
+    border-color: var(--bright-yellow);
+  }
+}
