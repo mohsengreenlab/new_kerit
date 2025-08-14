@@ -4,7 +4,7 @@ export const translations = {
     home: "Home",
     about: "About",
     services: "Services",
-    pricing: "Pricing",
+    pricing: "Investment Packages",
     contact: "Contact",
     
     // Hero Section
@@ -107,7 +107,7 @@ export const translations = {
     messagePlaceholder: "Tell us about your Russian market entry goals...",
     
     // Footer
-    allRightsReserved: "© 2024 Kerit. All rights reserved.",
+    allRightsReserved: "© 2025 Kerit. All rights reserved.",
     
     // Success messages
     formSubmitSuccess: "Thank you for your message! We will contact you soon.",
@@ -123,7 +123,7 @@ export const translations = {
     home: "Главная",
     about: "О нас",
     services: "Услуги",
-    pricing: "Цены",
+    pricing: "Инвестиционные пакеты",
     contact: "Контакты",
     
     // Hero Section
@@ -226,7 +226,7 @@ export const translations = {
     messagePlaceholder: "Расскажите нам о ваших целях выхода на российский рынок...",
     
     // Footer
-    allRightsReserved: "© 2024 Kerit. Все права защищены.",
+    allRightsReserved: "© 2025 Kerit. Все права защищены.",
     
     // Success messages
     formSubmitSuccess: "Спасибо за ваше сообщение! Мы свяжемся с вами в ближайшее время.",

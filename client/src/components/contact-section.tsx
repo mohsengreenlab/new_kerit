@@ -4,7 +4,7 @@ import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Label } from '@/components/ui/label';
 import { useToast } from '@/hooks/use-toast';
-import { Mail, Phone, MapPin, Send } from 'lucide-react';
+import { Mail, Send } from 'lucide-react';
 import { Globe } from 'lucide-react';
 import { useLanguage } from '@/hooks/use-language';
 import { useForm } from 'react-hook-form';
@@ -89,27 +89,7 @@ export function ContactSection() {
                 </div>
                 <div>
                   <p className="font-semibold">{t('email')}</p>
-                  <p className="text-gray-300">contact@rusmarketpro.com</p>
-                </div>
-              </div>
-
-              <div className="flex items-center space-x-4">
-                <div className="w-12 h-12 bg-bright-yellow rounded-lg flex items-center justify-center">
-                  <Phone className="h-6 w-6 text-dark-navy" />
-                </div>
-                <div>
-                  <p className="font-semibold">{t('phone')}</p>
-                  <p className="text-gray-300">+7 (495) 123-4567</p>
-                </div>
-              </div>
-
-              <div className="flex items-center space-x-4">
-                <div className="w-12 h-12 bg-bright-yellow rounded-lg flex items-center justify-center">
-                  <MapPin className="h-6 w-6 text-dark-navy" />
-                </div>
-                <div>
-                  <p className="font-semibold">{t('office')}</p>
-                  <p className="text-gray-300">{t('moscowRussia')}</p>
+                  <p className="text-gray-300">info@kerit.com.ru</p>
                 </div>
               </div>
             </div>
