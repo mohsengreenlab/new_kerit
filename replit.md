@@ -1,10 +1,18 @@
-# Russian Market Entry Landing Page
+# Kerit - Russian Market Entry Landing Page
 
 ## Overview
 
-This is a bilingual (English/Russian) single-page application that serves as a landing page for a business consultancy service helping international companies enter the Russian market. The application provides information about market research, localization, and customer outreach services through a modern, responsive web interface.
+This is a bilingual (English/Russian) single-page application that serves as a landing page for Kerit, a business consultancy service helping international companies enter the Russian market. The application provides information about market research, localization, and customer outreach services through a modern, responsive web interface.
 
 The project is built as a full-stack application with a React frontend and Express backend, designed to handle contact form submissions and provide a professional online presence for the consultancy business.
+
+## Recent Changes (August 14, 2025)
+
+✓ Updated brand name from "RusMarket Pro" to "Kerit" across all components and translations
+✓ Replaced hero section image with more professional business consultant image
+✓ Removed social media links from contact section to reduce clutter
+✓ Fixed bright yellow text readability issues on white backgrounds by changing to sage green
+✓ Improved overall visual accessibility and professional appearance
 
 ## User Preferences
 

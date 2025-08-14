@@ -107,13 +107,13 @@ export const translations = {
     messagePlaceholder: "Tell us about your Russian market entry goals...",
     
     // Footer
-    allRightsReserved: "© 2024 RusMarket Pro. All rights reserved.",
+    allRightsReserved: "© 2024 Kerit. All rights reserved.",
     
     // Success messages
     formSubmitSuccess: "Thank you for your message! We will contact you soon.",
     
     // Branding
-    brandName: "RusMarket Pro",
+    brandName: "Kerit",
     marketSuccess: "Market Success",
     provenResults: "Proven Results",
   },
@@ -226,13 +226,13 @@ export const translations = {
     messagePlaceholder: "Расскажите нам о ваших целях выхода на российский рынок...",
     
     // Footer
-    allRightsReserved: "© 2024 RusMarket Pro. Все права защищены.",
+    allRightsReserved: "© 2024 Kerit. Все права защищены.",
     
     // Success messages
     formSubmitSuccess: "Спасибо за ваше сообщение! Мы свяжемся с вами в ближайшее время.",
     
     // Branding
-    brandName: "RusMarket Pro",
+    brandName: "Kerit",
     marketSuccess: "Успех на рынке",
     provenResults: "Проверенные результаты",
   }
